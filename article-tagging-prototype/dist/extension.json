@@ -1,6 +1,0 @@
-{
-  "id": "tagging",
-  "name": "Tagging UI",
-  "srcdoc": "./index.html",
-  "fieldTypes": ["Symbol", "Text"]
-}
