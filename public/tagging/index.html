@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contentful Editor Extension - Tagging UI</title>
+    <link rel="stylesheet" href="https://contentful.github.io/ui-extensions-sdk/cf-extension.css">
+    <script src="https://contentful.github.io/ui-extensions-sdk/cf-extension-api.js"></script>
+    <!-- custom -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/choices.js/3.0.3/choices.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/choices.js/3.0.3/styles/css/choices.min.css" rel="stylesheet" />
+    <style type="text/css">
+    a.topic__remove, a.topic__remove:visited { color: #f66; }
+    .hidden { display: none; }
+    </style>
+  </head>
+  <body>
+    <div class="topic">
+      <p>
+        <strong>Parliament ID:</strong> <span class="cf-text-dimmed topic__parliament-id">(not set)</span> <a href="#" class="hidden topic__remove">remove</a>
+      </p>
+
+      <div class="cf-form-field">
+        <div class="cf-form-hint">Search for and select the desired topic.</div>
+        <select name="topic" class="cf-form-input topic__field">
+          <option value="" placeholder>Choose or find a topic...</option>
+        </select>
+      </div>
+    </div>
+
+    <script src="/dist/bundle.js"></script>
+  </body>
+</html>

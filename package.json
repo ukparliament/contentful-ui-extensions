@@ -1,0 +1,28 @@
+{
+  "name": "contentful-ui-article-tagging-prototype",
+  "version": "1.0.0",
+  "description": "A simple UI extension for Contentful",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "make serve"
+  },
+  "author": "UK Parliament",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ukparliament/contentful-ui-extensions.git"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^15.0.0",
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1"
+  }
+}
